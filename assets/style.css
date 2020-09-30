@@ -37,19 +37,18 @@ main {
 
 .left,
 .right {
-  width: 80vh;
+  width: 50%;
+  height: 80vh;
 }
 
 .left {
   background-color: yellow;
   float: left;
-  height: 80vh;
 }
 
 .right {
   background-color: cyan;
   float: right;
-  height: 80vh;
 }
 
 footer {
