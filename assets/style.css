@@ -29,6 +29,29 @@ main {
   height: 80vh;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.left,
+.right {
+  width: 80vh;
+}
+
+.left {
+  background-color: yellow;
+  float: left;
+  height: 80vh;
+}
+
+.right {
+  background-color: cyan;
+  float: right;
+  height: 80vh;
+}
+
 footer {
   height: 10vh;
   background-color: blue;
